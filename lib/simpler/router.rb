@@ -17,12 +17,17 @@ module Simpler
 
     def route_for(env)
       method = env['REQUEST_METHOD'].downcase.to_sym
-      path = env['PATH_INFO']
+      path = env['REQUEST_PATH']
 
       @routes.find { |route| route.match?(method, path) }
+      env['simpler.params'] ||= {}
+      route = @routes.find { |route| route.match?(method, path) }
+      env['simpler.params'].merge!(route.params) if route
+
+      route
     end
 
-    private
+  private
 
     def add_route(method, path, route_point)
       route_point = route_point.split('#')

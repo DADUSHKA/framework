@@ -28,13 +28,26 @@ module Simpler
 
     def call(env)
       route = @router.route_for(env)
+      return response_not_connect(env) unless route
+
+      env['simpler.params'] ||= {}
+      env['simpler.params'].merge!(route.params)
+
       controller = route.controller.new(env)
       action = route.action
 
       make_response(controller, action)
     end
 
-    private
+  private
+
+    def response_not_connect(env)
+     [
+       404,
+       {"Content‐Type" => "text/plain"},
+       ["Couldn't connect to the desired URL.\nURL '#{ env['REQUEST_URI'] }' doesn't exist\n"]
+     ]
+    end
 
     def require_app
       Dir["#{Simpler.root}/app/**/*.rb"].each { |file| require file }

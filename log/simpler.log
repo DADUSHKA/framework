@@ -1,0 +1,488 @@
+
+
+
+I, [2019-03-05T19:21:48.814315 #21356]  INFO -- : Request: GET /tests/11
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:21:58.709702 #21356]  INFO -- : Request: GET /tests/:id
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:22:23.056180 #21356]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:23:13.410559 #22527]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:29:39.004956 #25017]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:30:14.736419 #25268]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:31:20.777582 #25734]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:32:41.753688 #26296]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {}
+Response: 200
+
+I, [2019-03-05T19:34:26.694416 #27017]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {}
+Response: 200
+
+I, [2019-03-05T19:36:21.963102 #27787]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:36:59.468657 #28078]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:37:54.473107 #28471]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:38:24.581262 #28471]  INFO -- : Request: GET /tests/9
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T19:41:07.547076 #29756]  INFO -- : Request: GET /tests/9
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:12:42.977568 #9812]  INFO -- : Request: GET /tests/9
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:13:37.971034 #10200]  INFO -- : Request: GET /tests/9
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:22:40.239219 #13820]  INFO -- : Request: GET /tests/9
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:24:08.680000 #14413]  INFO -- : Request: GET /tests/9
+Handler: TestsController#show
+Parameters: {}
+Response: 200
+
+I, [2019-03-05T20:24:40.034894 #14647]  INFO -- : Request: GET /tests/9
+Handler: TestsController#show
+Parameters: {}
+Response: 200
+
+I, [2019-03-05T20:25:56.287365 #15164]  INFO -- : Request: GET /tests/9
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:26:53.083849 #15164]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:30:05.535941 #16788]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:30:40.060876 #17053]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:33:39.719602 #18234]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:52:01.123039 #18234]  INFO -- : Request: GET /tests
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:52:53.330088 #18234]  INFO -- : Request: GET /tests/3?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id", "iuiy"=>"98", "jkdjfkd"=>"eeu"}
+Response: 200
+
+I, [2019-03-05T20:53:33.273578 #18234]  INFO -- : Request: GET /tests?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id", "iuiy"=>"98", "jkdjfkd"=>"eeu"}
+Response: 200
+
+I, [2019-03-05T20:59:44.939767 #28465]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T20:59:57.286329 #28465]  INFO -- : Request: GET /tests?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id", "iuiy"=>"98", "jkdjfkd"=>"eeu"}
+Response: 200
+
+I, [2019-03-05T21:01:43.454608 #29283]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T21:01:50.718150 #29283]  INFO -- : Request: GET /tests?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id", "iuiy"=>"98", "jkdjfkd"=>"eeu"}
+Response: 200
+
+I, [2019-03-05T21:02:20.115985 #29283]  INFO -- : Request: GET /tests?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id", "iuiy"=>"98", "jkdjfkd"=>"eeu"}
+Response: 200
+
+I, [2019-03-05T21:02:37.481625 #29699]  INFO -- : Request: GET /tests?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id", "iuiy"=>"98", "jkdjfkd"=>"eeu"}
+Response: 200
+
+I, [2019-03-05T21:03:33.392225 #29699]  INFO -- : Request: GET /tests/98?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id", "iuiy"=>"98", "jkdjfkd"=>"eeu"}
+Response: 200
+
+I, [2019-03-05T21:06:53.179577 #31463]  INFO -- : Request: GET /tests/98?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T21:08:20.476899 #32054]  INFO -- : Request: GET /tests/98?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id", "12"=>"12"}
+Response: 200
+
+I, [2019-03-05T21:10:13.156638 #305]  INFO -- : Request: GET /tests/98?iuiy=98&jkdjfkd=eeu
+Handler: TestsController#show
+Parameters: {:id=>":id", "12"=>"12"}
+Response: 200
+
+I, [2019-03-05T21:43:57.601390 #305]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id", "12"=>"12"}
+Response: 200
+
+I, [2019-03-05T21:58:26.789741 #19398]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T21:59:58.784629 #20040]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T22:02:22.614706 #21041]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>":id"}
+Response: 200
+
+I, [2019-03-05T22:03:34.121858 #21538]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>"101"}
+Response: 200
+
+I, [2019-03-05T22:04:42.188715 #22003]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>"101"}
+Response: 200
+
+I, [2019-03-05T22:05:15.392259 #22003]  INFO -- : Request: GET /tests/
+Handler: TestsController#index
+Parameters: {}
+Response: 200
+
+I, [2019-03-05T22:05:23.070633 #22003]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:06:54.455257 #22864]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:07:21.417182 #23089]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:07:23.828445 #23089]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:09:11.982524 #23841]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:09:34.250680 #23841]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:09:56.307977 #23841]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:10:04.694560 #24241]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:10:07.226838 #24241]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:12:50.760401 #25340]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:13:46.877761 #25340]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200
+
+I, [2019-03-05T22:13:51.801051 #25340]  INFO -- : Request: GET /tests/101
+Handler: TestsController#show
+Parameters: {:id=>"101"}
+Response: 200
+
+I, [2019-03-05T22:14:48.473999 #26170]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:15:36.306886 #26170]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:15:59.125062 #26170]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:16:14.578220 #26796]  INFO -- : Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>"12"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:16:23.610828 #26796]  INFO -- : Request: GET /tests
+Handler: TestsController#index
+Parameters: {}
+Response: 200  tests/index.html.erb
+
+I, [2019-03-05T22:16:41.704061 #26796]  INFO -- : Request: GET /tests/5
+Handler: TestsController#show
+Parameters: {:id=>"5"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:26:29.286444 #31101]  INFO -- : Request: GET /tests/5
+Handler: TestsController#show
+Parameters: {:id=>"5"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:26:57.622268 #31101]  INFO -- : Request: GET /tests/5
+Handler: TestsController#show
+Parameters: {:id=>"5"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:40:32.384920 #5013]  INFO -- : Request: GET /tests
+Handler: TestsController#index
+Parameters: {}
+Response: 200  tests/index.html.erb
+
+I, [2019-03-05T22:40:34.120305 #5013]  INFO -- : Request: GET /favicon.ico
+Handler: NilClass#
+Parameters: {}
+Response: 404 text/plain
+
+I, [2019-03-05T22:40:41.734958 #5013]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:44:27.834318 #7086]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:44:58.074500 #7086]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:45:05.315556 #7380]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:45:08.233263 #7380]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:45:37.610501 #7632]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:45:40.099280 #7632]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:46:10.312222 #7632]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:47:40.243768 #8256]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:55:45.317640 #11679]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:55:59.480894 #11679]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:57:10.531350 #12305]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:57:17.568480 #12305]  INFO -- : Request: GET /tests/3
+Handler: TestsController#show
+Parameters: {:id=>"3"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:57:26.721908 #12305]  INFO -- : Request: GET /tests/5
+Handler: TestsController#show
+Parameters: {:id=>"5"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T22:58:50.446336 #12305]  INFO -- : Request: GET /tests?oi=9
+Handler: TestsController#index
+Parameters: {"oi"=>"9"}
+Response: 200  tests/index.html.erb
+
+I, [2019-03-05T23:20:43.756469 #21681]  INFO -- : Request: GET /tests/3
+Handler: TestsController#show
+Parameters: {:id=>"3"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T23:20:55.033668 #21681]  INFO -- : Request: GET /tests/5
+Handler: TestsController#show
+Parameters: {:id=>"5"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T23:22:26.344366 #21681]  INFO -- : Request: GET /tests/3
+Handler: TestsController#show
+Parameters: {:id=>"3"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T23:25:53.213355 #21681]  INFO -- : Request: GET /tests/3
+Handler: TestsController#show
+Parameters: {:id=>"3"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T23:25:55.679266 #21681]  INFO -- : Request: GET /tests/3
+Handler: TestsController#show
+Parameters: {:id=>"3"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T23:26:15.983714 #21681]  INFO -- : Request: GET /tests/1
+Handler: TestsController#show
+Parameters: {:id=>"1"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T23:26:43.970030 #24256]  INFO -- : Request: GET /tests/1
+Handler: TestsController#show
+Parameters: {:id=>"1"}
+Response: 200 ["Content‐Type"] tests/show.html.erb
+
+I, [2019-03-05T23:31:54.088577 #26315]  INFO -- : Request: GET /tests/1
+Handler: TestsController#show
+Parameters: {:id=>"1"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T23:32:59.738887 #26809]  INFO -- : Request: GET /tests/1
+Handler: TestsController#show
+Parameters: {:id=>"1"}
+Response: 200  tests/show.html.erb
+
+I, [2019-03-05T23:44:38.398723 #31280]  INFO -- : Request: GET /tests/1
+Handler: TestsController#show
+Parameters: {:id=>"1"}
+Response: 200 text/html tests/show.html.erb
+
+I, [2019-03-05T23:47:44.790592 #32522]  INFO -- : Request: GET /tests/1
+Handler: TestsController#show
+Parameters: {:id=>"1"}
+Response: 200 ["text/html"] tests/show.html.erb
+
+I, [2019-03-05T23:50:05.299419 #990]  INFO -- : Request: GET /tests/3
+Handler: TestsController#show
+Parameters: {:id=>"3"}
+Response: 200 ["text/html"] tests/show.html.erb
+
+I, [2019-03-05T23:50:13.394722 #990]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200 ["text/html"] tests/show.html.erb
+
+I, [2019-03-05T23:50:19.125508 #990]  INFO -- : Request: GET /tests/
+Handler: TestsController#index
+Parameters: {}
+Response: 200 ["text/html"] tests/index.html.erb
+
+I, [2019-03-06T00:18:37.127990 #13801]  INFO -- : Request: GET /tests/1
+Handler: TestsController#show
+Parameters: {:id=>"1"}
+Response: 200 ["text/html"] tests/show.html.erb
+
+I, [2019-03-06T00:18:51.566479 #13801]  INFO -- : Request: GET /tests/4
+Handler: TestsController#show
+Parameters: {:id=>"4"}
+Response: 200 ["text/html"] tests/show.html.erb
+
