@@ -11,7 +11,7 @@ class TestsController < Simpler::Controller
   end
 
   def show
-     # render text: "This is show_action#{params}"
+     render text: "This is show_action#{params}"
 
      @test = Test.find(params)
   end

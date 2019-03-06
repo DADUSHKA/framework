@@ -486,3 +486,13 @@ Handler: TestsController#show
 Parameters: {:id=>"4"}
 Response: 200 ["text/html"] tests/show.html.erb
 
+I, [2019-03-06T00:26:10.054729 #17047]  INFO -- : Request: GET /tests/
+Handler: TestsController#index
+Parameters: {}
+Response: 200 ["text/html"] tests/index.html.erb
+
+I, [2019-03-06T00:26:16.562371 #17047]  INFO -- : Request: GET /tests/3
+Handler: TestsController#show
+Parameters: {:id=>"3"}
+Response: 200 ["text/plain"] 
+
